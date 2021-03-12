@@ -32,10 +32,10 @@ contract droneSupply {
         tvm.log('Constructor');
 
         temp = 37;
-        //droneAddress = address(0xc4a31362f0dd98a8cc9282c2f19358c888dfce460d93adb395fa138d61ae5069);
+        droneAddress = address(0xc4a31362f0dd98a8cc9282c2f19358c888dfce460d93adb395fa138d61ae5069);
         lightInt = 10;
         dronePassword = "password";
-        //droneAddress = "username";
+        droneUsername = "username";
         //for the gps coordinates example 41°24'12.2"N 2°10'26.5"E, it is arranged in north and south in the array
         GPSlocation = [41,24,12,2,10,26];
 
